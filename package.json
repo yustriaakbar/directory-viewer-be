@@ -1,0 +1,20 @@
+{
+  "name": "monorepo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun src/app.ts",
+    "start": "bun src/app.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.1",
+    "elysia": "^1.4.21",
+    "pg": "^8.16.3"
+  }
+}
