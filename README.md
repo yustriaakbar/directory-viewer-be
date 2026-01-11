@@ -9,7 +9,17 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.3.5. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Database
+
+Konfigurasi dan skema database berada di folder root project.
+
+Di dalam folder tersebut terdapat file database yang berisi kumpulan query SQL yang digunakan untuk:
+
+Membuat tabel (DDL)
+
+Melakukan seeding data awal (initial data)
+
+File ini tidak dijalankan secara otomatis oleh aplikasi, sehingga perlu dijalankan secara manual menggunakan database client (PostgreSQL).
